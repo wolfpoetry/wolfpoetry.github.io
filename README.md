@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# ParticleGround-Portfolio
 
-You can use the [editor on GitHub](https://github.com/wolfpoetry/wolfpoetry.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+A particle-theme template as a landing page for your portfolio.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> [Demo](https://landing-page--itsron717.repl.co/)
 
-### Markdown
+<img src="particle_demo/particle_demo.png"/>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Using the Template
 
-```markdown
-Syntax highlighted code block
+  - Fork and Clone the repository
 
-# Header 1
-## Header 2
-### Header 3
+    ```
+    $ git clone https://github.com/itsron717/ParticleGround-Portfolio.git
+    ```
+ 
+  - Go inside the main repository
+  
+    ```
+    $ cd ParticleGround-Portfolio
+    ```
+    
+  - Modify `index.html` to change the names and links to point at your pages.
+  
+  - Upload your resume in the place of `deedy.pdf` (Or One can use the famous deedy template and build on that)
+   
+# Particle Feature
 
-- Bulleted
-- List
+The particle feature was obtained with the help of this [particleground](https://github.com/jnicol/particleground). The changes in the particles such as speed, drift, colour, direction, density, etc. can be modified in `demo.js`. Refer to the above link for more details.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+# References and Inspiration
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wolfpoetry/wolfpoetry.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This template is a minimal form of the [Particle Jekyll Template](https://github.com/nrandecker/particle).
